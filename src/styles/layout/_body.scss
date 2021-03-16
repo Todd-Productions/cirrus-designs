@@ -1,0 +1,39 @@
+.s-body {
+  &_card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1 1 30%;
+
+    &--dark {
+      background-color: $black;
+    }
+    &--small {
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  &--internal {
+    padding-top: $header_height;
+  }
+
+  a:not(.btn) {
+    color: $yellow;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media screen and (max-width: $mobile_break) {
+  .s-body {
+    &_card-container {
+      flex-wrap: nowrap;
+      flex-direction: column;
+    }
+  }
+}

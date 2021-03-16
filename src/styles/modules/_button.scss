@@ -1,0 +1,60 @@
+.btn {
+  padding: 0.3rem;
+  width: 100%;
+  max-width: $btn_max_width;
+  font-size: 1rem;
+  text-transform: uppercase;
+  transition: all 0.2s;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: $font_one;
+
+  &--default {
+    background-color: $button_default;
+    border: $white 1px solid;
+    color: $white;
+
+    &:hover {
+      background-color: $yellow;
+      color: $black;
+    }
+
+    &:disabled {
+      background: $button_default;
+      &:hover {
+        color: $white !important;
+        background: $button_default !important;
+      }
+    }
+  }
+
+  &--link {
+    background-color: transparent;
+    color: $white;
+
+    &:hover {
+      background-color: transparent;
+      color: darken($white, 15%);
+    }
+  }
+
+  &--margin-top {
+    margin-top: $card_padding;
+  }
+
+  &--block {
+    max-width: none;
+    display: block;
+  }
+
+  &--lg {
+    font-size: 1.2rem;
+    padding: 0.8rem;
+  }
+
+  &:disabled {
+    opacity: 0.4;
+    cursor: default;
+  }
+}

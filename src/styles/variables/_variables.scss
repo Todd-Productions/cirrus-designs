@@ -1,0 +1,55 @@
+/**
+ * Variables For Cirrus Design Website
+ */
+
+// Fonts
+$oswald: "Oswald", sans-serif;
+$ariel: "Ariel", sans-serif;
+
+$font_one: $oswald;
+$font_two: $ariel;
+$font_base_size: 14px;
+
+// Colors
+$white: #ffffff;
+$black: #000000;
+$yellow: #ffe000;
+$grey: #464646;
+$red: #e20f0f;
+$green: #00ba35;
+
+// Background
+$bg_grey: #29292a;
+
+// Footer
+$ft_grey: #373738;
+$ft_color: #ababab;
+
+// Dark Section
+$sc_dark: #000000;
+
+// Button colors
+$button_default: $grey;
+
+// Dimensions
+$max_container_width: 1284px;
+$header_height: 120px;
+$header_top_height: 50px;
+$header_bottom_height: 70px;
+$default_input_height: 36px;
+
+$mobile_break: 800px;
+
+// Item Heights
+$logo_width: 215px;
+$logo_width_sticky: 130px;
+$social_icon_height: 20px;
+$btn_max_width: 250px;
+
+//Padding
+$section_padding: 40px;
+$footer_padding: 20px;
+$card_padding: 20px;
+$card_bottom_padding: 40px;
+$card_image_height: 300px;
+$card_image_height_sm: 300px;

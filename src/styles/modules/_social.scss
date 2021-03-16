@@ -1,0 +1,22 @@
+.social {
+    flex: 1;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-content: flex-end;
+
+    & > li {
+        flex: 1;
+        display: block;
+        text-align: center;
+    }
+
+    &_image {
+        height: $social_icon_height;
+    }
+
+    &_link {
+        height: $social_icon_height;
+        flex: 1;
+    }
+}

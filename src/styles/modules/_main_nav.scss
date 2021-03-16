@@ -1,0 +1,149 @@
+.m-nav {
+  width: 100%;
+  height: $header_bottom_height;
+
+  &_menu {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    & > li {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      flex: 1;
+      height: $header_bottom_height;
+      position: relative;
+      justify-content: center;
+
+      & > a {
+        flex: 1;
+        display: flex;
+        padding: 0.5rem;
+        font-size: 1.2rem;
+        font-family: $font_one;
+        text-transform: uppercase;
+        color: $white;
+        text-decoration: none;
+        align-content: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        transition: all linear 0.1s;
+
+        &.active {
+          color: lighten($yellow, 30%);
+        }
+
+        &:hover {
+          color: $yellow;
+        }
+      }
+
+      &:hover {
+        & > div.m-nav_dd {
+          display: flex;
+        }
+      }
+    }
+  }
+
+  &_dd {
+    display: none;
+    position: absolute;
+    flex: 1;
+    width: 200px;
+    top: 100%;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+
+    > ul {
+      flex: 1;
+      background-color: $black;
+      display: block;
+      z-index: 200;
+      padding: 0;
+      padding: 15px 0;
+
+      > li {
+        padding: 5px 30px;
+        list-style: none;
+        display: flex;
+        flex: 1;
+        position: relative;
+
+        > a {
+          color: $white;
+          font-family: $font_one;
+          text-decoration: none;
+          text-transform: uppercase;
+
+          &.active {
+            color: lighten($yellow, 30%);
+          }
+
+          &:hover {
+            color: $yellow;
+          }
+        }
+
+        &:hover {
+          & > div.m-nav_dd {
+            display: flex;
+            top: 0;
+            left: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $mobile_break) {
+  .m-nav {
+    height: auto;
+    background-color: lighten($black, 10%);
+    margin-left: -1rem;
+    margin-right: -1rem;
+    box-shadow: 4px 0 8px rgba(0, 0, 0, 0.8);
+
+    &_menu {
+      display: none;
+
+      &--openmenu {
+        display: block;
+        border-bottom: 2px solid $white;
+      }
+
+      li {
+        height: auto;
+        flex-direction: column;
+
+        a {
+          padding: 1.5rem 1rem;
+        }
+      }
+    }
+
+    &_dd {
+      width: auto;
+      margin: 0 1rem;
+      display: block;
+      position: initial;
+      padding: 0;
+
+      ul {
+        padding: 0;
+
+        li {
+          padding: 0;
+          a {
+            padding: 1rem 2rem;
+          }
+        }
+      }
+    }
+  }
+}

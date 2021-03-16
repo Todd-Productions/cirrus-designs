@@ -1,0 +1,110 @@
+/**
+ * Styles for header
+ */
+.s-header {
+    height: $header_height;
+    z-index: 200;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    transition: all 0.2s;
+
+    &_top {
+        padding: 0 10px;
+        background-color: rgba(0, 0, 0, 0.6);
+        flex: 1;
+        height: $header_top_height;
+        flex-direction: row-reverse;
+    }
+
+    &_bottom {
+        padding: 0 10px;
+        flex: 1;
+        background-color: $black;
+        display: flex;
+        height: $header_bottom_height;
+    }
+
+    &_social {
+        display: flex;
+        align-items: center;
+        width: 150px;
+        margin-left: auto;
+        height: $header_top_height;
+    }
+
+    &_logo {
+        width: $logo_width;
+        display: flex;
+        transition: all 0.2s;
+        
+        &_img {
+            transition: all 0.2s;
+            width: $logo_width;
+            margin-top: -15px;
+        }
+    }
+
+    &_menuButton {
+        padding: 0 1.5rem;
+        font-size: 1.5rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+        height: 100%;
+        width: auto;
+    }
+}
+
+
+@media screen and (min-width: $mobile_break) {
+    .s-header--sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+
+        .s-header {
+
+            &_top {
+                display: none;
+            }
+
+            &_logo {
+                width: $logo_width_sticky;
+
+                &_img {
+                    width: $logo_width_sticky;
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $mobile_break) {
+    
+    .s-header {
+        &_bottom {
+            padding: 0;
+        }
+
+        &_logo {
+            flex: 1 0 100%;
+            justify-content: center;
+            display: flex;
+            z-index: 100;
+        }
+
+        &_wrapper {
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            position: relative;
+        }
+
+        &_menuButton {
+            display: inline-block;
+        }
+    }
+}

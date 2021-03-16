@@ -1,0 +1,119 @@
+/**
+ * Base Styles
+ */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background-color: $bg_grey;
+  color: $white;
+  font-family: $font_two;
+  font-size: $font_base_size;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  border: none;
+  font-family: $font_one;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7,
+h8,
+h9 {
+  color: $white;
+  font-family: $font_one;
+  margin: 0;
+  padding: 0;
+  font-weight: 100;
+}
+
+.h1 {
+  font-weight: 500;
+  font-size: 2.5rem;
+  margin-bottom: 0.25rem;
+}
+.h2 {
+  font-family: $font_one;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: $yellow;
+}
+
+p {
+  line-height: 150%;
+}
+
+// Reusable Styles
+.wrapper {
+  display: flex;
+  flex: 1;
+  max-width: $max_container_width;
+  margin: 0 auto;
+
+  &--no-flex {
+    display: block;
+  }
+}
+
+.mt {
+  margin-top: 2rem;
+}
+
+.third-columns {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  grid-gap: 1rem;
+}
+
+.priceBlock {
+  margin-top: 1rem;
+  border: 1px solid $white;
+  padding: 2rem;
+  border-radius: 5px;
+
+  ul {
+    padding-left: 2.5rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+    font-family: $font_one;
+    margin-bottom: 2rem;
+  }
+
+  .btn {
+    margin-top: 2rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: $mobile_break) {
+  .third-columns {
+    grid-template-columns: 1fr;
+  }
+}
+
+.full-image {
+  text-align: center;
+
+  img {
+    max-width: 1000px;
+    width: 100%;
+  }
+}

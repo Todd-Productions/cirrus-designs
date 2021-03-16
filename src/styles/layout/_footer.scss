@@ -1,0 +1,87 @@
+/**
+ * Footer Styles
+ */
+.s-footer {
+  font-family: $font_two;
+  font-size: 0.9rem;
+  color: $white;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 1);
+
+  a {
+    font-family: $font_two;
+    color: $ft_color;
+    text-decoration: none;
+    transition: all linear 0.1s;
+
+    &:hover {
+      color: $yellow;
+    }
+  }
+
+  &_top {
+    flex: 1;
+    display: flex;
+    padding: $footer_padding 0;
+    background-color: $ft_grey;
+
+    &_wrapper {
+      justify-content: space-around;
+    }
+
+    &_links {
+      flex: 0 1 1;
+    }
+
+    &_contact {
+      flex: 0 1 1;
+    }
+  }
+
+  &_heading {
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    text-shadow: none;
+  }
+
+  &_bottom {
+    flex: 1;
+    display: flex;
+    padding-top: $footer_padding;
+    padding-bottom: $footer_padding;
+
+    &_wrapper {
+      justify-content: space-around;
+      align-content: center;
+      align-items: center;
+    }
+
+    &_meta {
+      flex: 0 1 1;
+      color: $ft_color;
+    }
+
+    &_social {
+      flex: 0 1 100px;
+    }
+  }
+}
+
+@media screen and (max-width: $mobile_break) {
+  .s-footer {
+    &_top {
+      &_wrapper {
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+      }
+
+      &_links {
+        margin-bottom: 2rem;
+      }
+    }
+    &_heading {
+      margin-bottom: 1rem;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.f-nav {
+    &_menu {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    
+        & > li {
+            margin: 0;
+            padding: 0;
+            display: block;
+            padding: 0.5rem 0;
+
+            & > a {
+                font-family: $font_two;
+                text-transform: capitalize;
+                color: $ft_color;
+                text-decoration: none;
+                transition: all linear 0.1s;
+                
+                &:hover {
+                    color: $yellow;
+                }
+            }
+
+            &:hover {
+                & > div.m-nav_dd {
+                    display: flex;
+                }
+            }
+        }
+    }
+}
