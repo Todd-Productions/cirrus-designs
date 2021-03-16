@@ -2,7 +2,7 @@
 
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://https://cirrusdesign.net",
+    siteUrl: "https://cirrusdesign.net",
     title: "Cirrus Design",
     description: "Cirrus Design website developed by Todd Productions Inc.",
     facebook: "http://facebook.com",
