@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
-seotitle: About 3D Scanning Services
-seodescription: We Use The Latest Point Cloud Technology To Improve Accuracy And Facilitate Early Visualization. Thorough And Accurate.
+seotitle: Professional 3D Scanning Services Western United States
+seodescription: Collective 30 Plus Years Of Experience Providing The Highest Quality Service At Competitive Rates. Employees Across Western United States
 title: Our Mission
 ---
 

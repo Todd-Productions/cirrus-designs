@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
-seotitle: High Quality 3D Modeling
-seodescription: We Use Our Collective 30 Plus Years Of Experience And The Most Up To Date Technologies To Offer Our Clients The Highest Quality 3D Modeling And Design.
+seotitle: Industrial 3D Scanning & Printing Services Washington
+seodescription: 30 Plus Years Of Experience In Professional 3D Scanning Industrial Power Plants, Architectural Engineering And 3D Printing Services For Washington
 slides:
   - image: >-
       https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/slide1.jpg

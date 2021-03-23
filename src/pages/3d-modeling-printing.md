@@ -1,7 +1,7 @@
 ---
 templateKey: overview-page
-seotitle: 3D Modeling & Printing - Washington
-seodescription: High Quality 3d Models. We Print And Produce Complex Shapes And Geometries At Your Request
+seotitle: 3D Industrial Parts Printing Services Idaho
+seodescription: Highly Skilled Team 3D Model's Very Complex Shapes And Geometries For A Huge Number Of Industries, Idaho
 title: 3D Modeling
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/unit-section-view.jpg
 image2: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/3d-duplex-panels.jpg
@@ -15,7 +15,6 @@ secbody: >-
 Cirrus Design’s highly skilled team can 3D model nearly anything, from small parts and assemblies to large plants and machinery. This allows our customers to create or duplicate almost any item or part, even one with highly complex curves or shapes.
 
 Benefits to having a three-dimensional model:
-
 - Allows the user to fully visualize an object
 - Verify complete design prior to construction
 - [Conceptual design testing](/services/conceptual-design-testing)

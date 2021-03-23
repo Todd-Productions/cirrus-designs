@@ -1,7 +1,7 @@
 ---
 templateKey: service-page
-seotitle: Reverse Engineering With 3D Scanning
-seodescription: Cirrus Design Can Help Your Company Reverse Engineer A Product, Converting A Point Cloud Into A 3d Model.
+seotitle: Reverse Engineer Machinery, 3D Scanning Services
+seodescription: Save Time And Money With 3D Point Cloud Services To Reverse Engineer Machinery Dimensions And Parts
 title: Reverse Engineering
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/reverse-engineer/machine.jpg
 blocks:
