@@ -14,47 +14,47 @@ const nav = [
     children: [
       {
         label: `Industrial Plants`,
-        uri: `/services/industrial-plants`
+        uri: `/services/industrial-plants`,
       },
       {
         label: `Arch Eng Const (AEC)`,
-        uri: `/services/aec`
+        uri: `/services/aec`,
       },
       {
         label: `Real Estate`,
-        uri: `/services/real-estate`
+        uri: `/services/real-estate`,
       },
       {
         label: `Reverse Engineering`,
-        uri: `/services/reverse-engineering`
+        uri: `/services/reverse-engineering`,
       },
       {
         label: `Conceptual Design + Testing`,
-        uri: `/services/conceptual-design-testing`
-      }
-    ]
+        uri: `/services/conceptual-design-testing`,
+      },
+    ],
   },
   {
-    label: `3D Modeling`,
-    uri: `/3d-modeling-printing`
+    label: `Ground Penetrating Radar`,
+    uri: `/ground-penetrating-radar`,
   },
   {
     label: `Design Engineering`,
-    uri: `/engineering-design-drafting`
+    uri: `/engineering-design-drafting`,
   },
   {
     label: `About`,
-    uri: `/about`
+    uri: `/about`,
   },
   {
     label: `Contact`,
-    uri: `/contact`
-  }
+    uri: `/contact`,
+  },
 ];
 
 class Header extends React.Component {
   state = {
-    toggle: false
+    toggle: false,
   };
 
   constructor(props) {
@@ -96,7 +96,7 @@ class Header extends React.Component {
         left: 0,
         right: 0,
         x: scrollTarget.scrollX,
-        y: scrollTarget.scrollY
+        y: scrollTarget.scrollY,
       };
 
     // If no sticky ref set
@@ -113,10 +113,10 @@ class Header extends React.Component {
     return `m-nav_menu ${navMenu}`;
   };
 
-  activeClass = uri => (uri === this.props.current ? "active" : null);
+  activeClass = (uri) => (uri === this.props.current ? "active" : null);
 
   renderNav = () =>
-    nav.map(item => (
+    nav.map((item) => (
       <li>
         <Link to={item.uri} className={this.activeClass(item.uri)}>
           {item.label}
@@ -124,7 +124,7 @@ class Header extends React.Component {
         {item.children ? (
           <div className="m-nav_dd">
             <ul>
-              {item.children.map(sub => (
+              {item.children.map((sub) => (
                 <li>
                   <Link to={sub.uri} className={this.activeClass(sub.uri)}>
                     {sub.label}
@@ -149,11 +149,12 @@ class Header extends React.Component {
             }
           }
         `}
-        render={data => {
+        render={(data) => {
           return (
             <header
-              className={`s-header ${this.state.stuckTop &&
-                "s-header--sticky"}`}
+              className={`s-header ${
+                this.state.stuckTop && "s-header--sticky"
+              }`}
               ref={this.headerRef}
             >
               <section className="s-header_top">
