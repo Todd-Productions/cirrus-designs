@@ -4,8 +4,8 @@ seotitle: Ground Penetrating Radar Western United States
 seodescription: Ground Penetrating Radar(GPR) Services For Western United States
 title: Ground Penetraing Radar Services
 subtitle:
-image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/gpr/gpr-tool1.jpg
-image2: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/gpr/gpr-tool2.jpg
+image: https://www.github.com/andrewstanton/cirrus-design-2021/blob/staging/src/img/content/gpr/gpr-tool1.jpg?raw=true
+image2: https://www.github.com/andrewstanton/cirrus-design-2021/blob/staging/src/img/content/gpr/gpr-tool2.jpg?raw=true
 ---
 
 Cirrus Design helps turn our clients’ designs into reality. We provide comprehensive design engineering services in the mechanical, electrical and structural fields, and we specialize in Piping and Instrumentation Diagrams (P&ID).
