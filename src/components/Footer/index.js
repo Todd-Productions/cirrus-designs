@@ -1,5 +1,22 @@
 import React from "react";
 import { Link, graphql, StaticQuery } from "gatsby";
+import styled from "styled-components";
+import { lighten } from "polished";
+import { faFacebook, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+const Social = styled.div`
+  a {
+    color: #888888;
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 0px 5px;
+
+    &:hover {
+      color: ${lighten(0.2, "#888888")};
+    }
+  }
+`;
 
 const Footer = () => (
   <StaticQuery
@@ -15,7 +32,7 @@ const Footer = () => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <footer className="s-footer">
         <div className="s-footer_top">
           <div className="wrapper s-footer_top_wrapper">
@@ -58,6 +75,23 @@ const Footer = () => (
                   {data.site.siteMetadata.email}
                 </a>
               </p>
+              <br />
+              <br />
+              <h2 className="s-footer_heading">Follow Us</h2>
+              <Social>
+                <a
+                  href="https://www.facebook.com/Cirrus-Design-Industries-Inc-106549944871133"
+                  target="_blank"
+                >
+                  <FontAwesomeIcon icon={faFacebook} />
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/cirrus-design-industries-inc/?viewAsMember=true"
+                  target="_blank"
+                >
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </a>
+              </Social>
             </div>
           </div>
         </div>

@@ -20,8 +20,6 @@ const ContactPageTemplate = ({ subtitle, title }) => (
 
 const ContactPage = ({ data, ...props }) => {
   const { frontmatter } = data.markdownRemark;
-  const { siteMetadata } = data.site;
-
   return (
     <Layout {...props}>
       <SEO title={frontmatter.seotitle} description={frontmatter.description} />
