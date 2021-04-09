@@ -12,10 +12,4 @@ Cirrus Design uses state-of-the-art GPR technology for identifying whatever is n
 
 With a collective 30-plus years of experience, our team is ready to help our clients develop cost-effective solutions to complex problems.
 
-We encourage you to reach out to our team about any GPR services mentioned here.
-
-Cirrus Design provides the following services:<ul><li>Rebar Location</li><li>Post-Tension Cable Detection</li><li>Current-Carrying Wire Detection</li><li>Pipe Detection</li><li>Conduit Detection</li><li>Voids Within Concrete Detection</li><li>Power Cable Detection</li><li>Conrete Slab Thickness Idenfication</li>
-
-</ul>
-
-Clients served by Cirrus Design include:<ul><li>Public Utility District (PUD)</li><li>Bureau of Reclamation</li><li>Construction Firms</li><li>Engineering Firms</li><li>Surveyors</li><li>Architectural Firms</li></ul>
+We encourage you to reach out to our team about any GPR services.

@@ -77,7 +77,7 @@ const Footer = () => (
               </p>
               <br />
               <br />
-              <h2 className="s-footer_heading">Social</h2>
+              <h2 className="s-footer_heading">Follow Us</h2>
               <Social>
                 <a
                   href="https://www.facebook.com/Cirrus-Design-Industries-Inc-106549944871133"
