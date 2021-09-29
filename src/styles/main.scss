@@ -3,3 +3,37 @@
 
 // Layouts
 @import "./_layouts/header";
+
+.grid {
+  display: grid;
+
+  &-cols {
+    &-2 {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  &-gap {
+    &-1 {
+      grid-gap: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: $mobile_break) {
+  .grid {
+    display: grid;
+
+    &-cols {
+      &-2 {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    &-gap {
+      &-1 {
+        grid-gap: 1rem;
+      }
+    }
+  }
+}

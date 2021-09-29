@@ -1,7 +1,7 @@
 ---
 templateKey: service-page
-seotitle: Real Estate Property 3D Virtual Walkthrough Services
-seodescription: True Immersive  Virtual Walkthroughs Using High-Tech 3D Scanners For Any Real Estate Building. Real Estate Virtual Tour / 3D Tour and Showroom Virtual Tour
+seotitle: Real Estate 3D Virtual Walkthrough Services
+seodescription: Immersive virtual walkthroughs with high-tech 3D scanners for any real estate building. Real estate virtual tour / 3D tour and showroom virtual tour Washington
 title: Real Estate
 subtitle: Bryce's House
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/425-n-garry-dr-liberty-lake-living-room.jpg

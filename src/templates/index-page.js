@@ -7,7 +7,7 @@ import Banner from "../components/Banner";
 import Section from "../components/Section";
 import { SEO } from "../components/SEO";
 
-const isNull = variable => variable === "" || variable === null;
+const isNull = (variable) => variable === "" || variable === null;
 
 const IndexPageTemplate = ({ slides, hydrosection, aboutsection }) => (
   <div className="s-body">
@@ -39,7 +39,10 @@ const IndexPage = ({ data, ...props }) => {
 
   return (
     <Layout {...props}>
-      <SEO title={frontmatter.seotitle} description={frontmatter.description} />
+      <SEO
+        title={frontmatter.seotitle}
+        description={frontmatter.seodescription}
+      />
       <IndexPageTemplate {...frontmatter} />
     </Layout>
   );

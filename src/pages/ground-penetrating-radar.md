@@ -1,8 +1,7 @@
 ---
 templateKey: overview-page
 seotitle: Ground Penetrating Radar Western United States
-seodescription: Ground Penetrating Radar(GPR) Services For Western United States
-title: Ground Penetraing Radar Services
+seodescription: Cirrus Design uses ground penetrating radar (GPR) technology to help identify what is below a surface servicing Washington and Idaho
 subtitle:
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design-2021/staging/src/img/content/gpr/gpr-tool1.jpg
 image2: https://raw.githubusercontent.com/andrewstanton/cirrus-design-2021/staging/src/img/content/gpr/gpr-tool2.jpg

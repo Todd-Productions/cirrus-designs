@@ -6,9 +6,10 @@ import Layout from "../components/Layout";
 import Section from "../components/Section";
 import { SEO } from "../components/SEO";
 
-const renderBlocks = blocks => {
-  return blocks.map(block => (
+const renderBlocks = (blocks) => {
+  return blocks.map((block, ix) => (
     <Card
+      key={ix}
       title={block.subtitle}
       small={true}
       contain={block.contain}
@@ -19,7 +20,7 @@ const renderBlocks = blocks => {
   ));
 };
 
-const isNull = variable => variable === "" || variable === null;
+const isNull = (variable) => variable === "" || variable === null;
 
 const PlanRender = () => (
   <Fragment>
@@ -96,7 +97,7 @@ const ConceptualPageTemplate = ({
   secbody,
   secimage,
   sectitle,
-  blocks
+  blocks,
 }) => (
   <div className="s-body s-body--internal">
     <Section image={image} image2={image2} title={title}>
@@ -126,7 +127,10 @@ const ConceptualPage = ({ data, ...props }) => {
 
   return (
     <Layout {...props}>
-      <SEO title={frontmatter.seotitle} description={frontmatter.description} />
+      <SEO
+        title={frontmatter.seotitle}
+        description={frontmatter.seodescription}
+      />
       <ConceptualPageTemplate
         {...frontmatter}
         body={data.markdownRemark.rawMarkdownBody}

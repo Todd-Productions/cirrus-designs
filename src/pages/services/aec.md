@@ -1,7 +1,7 @@
 ---
 templateKey: aec-page
-seotitle: Architectural Engineering Construction Services Idaho
-seodescription: Cirrus Design Helps With Architectural Existing Conditions, Remodel Existing Conditions. Power Cable Detection, Borehole Survey, Rebar Detection, GPR, and Concrete Survey Available. AEC Services Of Idaho
+seotitle: Architectural Engineering Construction Services
+seodescription: Cirrus Design AEC services include architectural existing conditions, power cable detection, rebar detection, GPR, and concrete survey available for Idaho
 title: Architectural Engineering Construction (AEC)
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/aec/aec-2.jpg
 image2: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/aec-example.jpg

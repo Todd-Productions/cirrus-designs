@@ -1,7 +1,7 @@
 ---
 templateKey: overview-page
-seotitle: Engineering Design & Development Western United States
-seodescription: Comprehensive Design Engineering Services In The Mechanical, Electrical, And Structural Fields For Western United States
+seotitle: Reverse Engineer Machinery 3D Services
+seodescription: Save time and money with 3D point cloud services that reverse engineer machinery dimensions and parts servicing Idaho and Washington
 title: Design Engineering Services
 subtitle:
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/bridge-and-platform.png

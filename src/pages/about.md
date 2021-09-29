@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
-seotitle: Professional 3D Scanning Services Western United States
-seodescription: Collective 30 Plus Years Of Experience Providing The Highest Quality Service At Competitive Rates. Employees Across Western United States
+seotitle: Professional 3D Scanning Services
+seodescription: Collective 30 plus years of experience providing high quality 3D scanning services with competitive prices for Washington and Idaho
 title: Our Mission
 ---
 

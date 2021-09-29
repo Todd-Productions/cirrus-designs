@@ -1,7 +1,7 @@
 ---
 templateKey: service-page
-seotitle: Reverse Engineer Machinery, 3D Scanning Services
-seodescription: Save Time And Money With 3D Point Cloud Services To Reverse Engineer Machinery Dimensions And Parts
+seotitle: Reverse Engineer Machinery 3D Services
+seodescription: Save time and money with 3D point cloud services that reverse engineer machinery dimensions and parts servicing Idaho and Washington
 title: Reverse Engineering
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/reverse-engineer/machine.jpg
 blocks:

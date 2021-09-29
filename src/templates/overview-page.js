@@ -5,12 +5,13 @@ import Card from "../components/Card";
 import Section from "../components/Section";
 import { SEO } from "../components/SEO";
 
-const isNull = variable => variable === "" || variable === null;
+const isNull = (variable) => variable === "" || variable === null;
 
-const renderBlocks = services => {
+const renderBlocks = (services) => {
   return services !== null
-    ? services.map(service => (
+    ? services.map((service, ix) => (
         <Card
+          key={ix}
           title={service.title}
           small={true}
           image={service.image}
@@ -34,7 +35,7 @@ const OverviewPageTemplate = ({
   image2,
   image3,
   secvideo,
-  services
+  services,
 }) => (
   <div className="s-body s-body--internal">
     <Section
@@ -63,7 +64,10 @@ const OverviewPage = ({ data, ...props }) => {
 
   return (
     <Layout {...props}>
-      <SEO title={frontmatter.seotitle} description={frontmatter.description} />
+      <SEO
+        title={frontmatter.seotitle}
+        description={frontmatter.seodescription}
+      />
       <OverviewPageTemplate
         {...frontmatter}
         body={data.markdownRemark.rawMarkdownBody}

@@ -22,7 +22,10 @@ const ContactPage = ({ data, ...props }) => {
   const { frontmatter } = data.markdownRemark;
   return (
     <Layout {...props}>
-      <SEO title={frontmatter.seotitle} description={frontmatter.description} />
+      <SEO
+        title={frontmatter.seotitle}
+        description={frontmatter.seodescription}
+      />
       <ContactPageTemplate
         {...frontmatter}
         body={data.markdownRemark.rawMarkdownBody}

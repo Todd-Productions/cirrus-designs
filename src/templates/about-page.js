@@ -19,7 +19,10 @@ const AboutPage = ({ data, ...props }) => {
 
   return (
     <Layout {...props}>
-      <SEO title={frontmatter.seotitle} description={frontmatter.description} />
+      <SEO
+        title={frontmatter.seotitle}
+        description={frontmatter.seodescription}
+      />
       <AboutPageTemplate
         {...frontmatter}
         body={data.markdownRemark.rawMarkdownBody}

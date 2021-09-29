@@ -116,8 +116,8 @@ class Header extends React.Component {
   activeClass = (uri) => (uri === this.props.current ? "active" : null);
 
   renderNav = () =>
-    nav.map((item) => (
-      <li>
+    nav.map((item, ix) => (
+      <li key={ix}>
         <Link to={item.uri} className={this.activeClass(item.uri)}>
           {item.label}
         </Link>

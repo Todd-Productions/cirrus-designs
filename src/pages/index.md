@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
-seotitle: Industrial 3D Scanning & Printing Services Washington
-seodescription: 30 Plus Years Of Experience In Professional 3D Scanning Industrial Power Plants, Architectural Engineering And 3D Printing Services For Washington
+seotitle: Industrial 3D Scanning Washington
+seodescription: 30 plus years of experience with professional 3D scanning industrial power plants, architectural engineering and 3D printing services for Washington and Idaho
 slides:
   - image: >-
       https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/slide1.jpg
@@ -42,7 +42,7 @@ Cirrus Design's ability to record every dimension of a hydro plant within about 
 
 
 In addition to our work in three-dimensional scanning and modeling technologies, Cirrus Designs focuses on architectural engineering construction, real estate, reverse engineering, conceptual design testing and 3D printing. We also offer our clients mechanical, electrical and structural engineering services."
-  title: Hydroelectric Power Plants
+  title: Industrial 3D Scanning and Printing Services
 
 aboutsection:
   buttontext: Learn More

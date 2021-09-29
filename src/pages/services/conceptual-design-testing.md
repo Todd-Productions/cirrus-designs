@@ -1,7 +1,7 @@
 ---
 templateKey: conceptual-page
-seotitle: Aerodynamic Testing For Conceptual Design Services
-seodescription: Improve Performance Of Your Aerodynamic Designs With Conceptual Testing 3D Technology
+seotitle: Aerodynamic Testing & Conceptual Design
+seodescription: Improve performance of tour aerodynamic designs with conceptual testing 3D technology provided by Cirrus Design for Washington and Idaho
 title: Conceptual Design & Testing
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/fea-example-lifting-beam.png
 sectitle: Airshaper

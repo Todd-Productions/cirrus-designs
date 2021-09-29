@@ -1,7 +1,7 @@
 ---
 templateKey: industrial-page
-seotitle: 3D Scanning & Mapping For Industrial Plants Idaho
-seodescription: Accurately Map And Document Industrial Plants, Machine Locations, Concrete Scanning, Confined Space Scanning, And Piping For 3D Viewing In Idaho
+seotitle: 3D Scanning & Mapping Industrial Plants Idaho
+seodescription: Accurate map and document industrial plants, machine locations, concrete scanning, confined space scanning, and piping for 3D viewing In Idaho
 title: Industrial Plants
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/industial%20plants/industial-4.jpg
 sectitle: INDUSTRIAL PROCESSING PLANT MATTERPORT WALKTHROUGH

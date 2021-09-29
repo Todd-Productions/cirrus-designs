@@ -7,12 +7,13 @@ import { SEO } from "../components/SEO";
 
 import video from "../video/point-cloud.mp4";
 
-const isNull = variable => variable === "" || variable === null;
+const isNull = (variable) => variable === "" || variable === null;
 
-const renderBlocks = services => {
+const renderBlocks = (services) => {
   return services !== null
-    ? services.map(service => (
+    ? services.map((service, ix) => (
         <Card
+          key={ix}
           title={service.title}
           small={true}
           image={service.image}
@@ -35,7 +36,7 @@ const IndustrialPageTemplate = ({
   image,
   image2,
   image3,
-  services
+  services,
 }) => (
   <div className="s-body s-body--internal">
     <Section
@@ -77,7 +78,10 @@ const IndustrialPage = ({ data, ...props }) => {
 
   return (
     <Layout {...props}>
-      <SEO title={frontmatter.seotitle} description={frontmatter.description} />
+      <SEO
+        title={frontmatter.seotitle}
+        description={frontmatter.seodescription}
+      />
       <IndustrialPageTemplate
         {...frontmatter}
         body={data.markdownRemark.rawMarkdownBody}

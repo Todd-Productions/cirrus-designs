@@ -2,3 +2,7 @@
   publish = "public"
   command = "npm run build"
   functions = "lambda"
+
+[[headers]]
+  for = "/*"
+  Access-Control-Allow-Origin = "*"

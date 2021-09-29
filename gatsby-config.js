@@ -1,5 +1,3 @@
-// const { GA_TRACKING } = "";
-
 module.exports = {
   siteMetadata: {
     siteUrl: "https://cirrusdesign.net",
@@ -40,12 +38,12 @@ module.exports = {
     },
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
-    // {
-    //   resolve: "gatsby-plugin-google-analytics",
-    //   options: {
-    //     trackingId: GA_TRACKING,
-    //   },
-    // },
+    {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: "UA-160426874-1",
+      },
+    },
     {
       resolve: "gatsby-transformer-remark",
       options: {
