@@ -4,10 +4,10 @@ seotitle: Reverse Engineer Machinery 3D Services
 seodescription: Save time and money with 3D point cloud services that reverse engineer machinery dimensions and parts servicing Idaho and Washington
 title: Design Engineering Services
 subtitle:
-image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/bridge-and-platform.png
-image2: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/cg-bridge-drawing.jpg
-image3: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/p-id-example.jpg
-secvideo: '<div class="full-image"><img src="https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/design-engineering.gif" /></div>'
+image: ''
+image2: ''
+image3: ''
+secvideo: ''
 ---
 
 Cirrus Design helps turn our clients’ designs into reality. We provide comprehensive design engineering services in the mechanical, electrical and structural fields, and we specialize in Piping and Instrumentation Diagrams (P&ID).
