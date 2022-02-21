@@ -25,7 +25,7 @@ const Section = ({
   imagetitle,
   aboveSectionTitle,
   full,
-  bottomRender
+  bottomRender,
 }) => (
   <section className={classNames(theme, leftImage, full)}>
     <div className="wrapper section_wrapper">

@@ -28,9 +28,6 @@ const renderBlocks = (services) => {
 
 const IndustrialPageTemplate = ({
   subtitle,
-  sectitle,
-  secbody,
-  secimage,
   title,
   body,
   image,
@@ -49,12 +46,10 @@ const IndustrialPageTemplate = ({
       {body}
     </Section>
 
-    {(!isNull(secbody) || !isNull(sectitle)) && (
+    {
       <Section
         title="GENERATE A 2D BLUEPRINT FROM A 3D SCAN"
         imageTitleLink="https://my.matterport.com/show/?m=YCBLWTM96af"
-        imagetitle={sectitle}
-        image={secimage}
         theme="dark"
         leftImage={true}
         addition={() => (
@@ -65,7 +60,7 @@ const IndustrialPageTemplate = ({
           </div>
         )}
       />
-    )}
+    }
 
     <div className="s-body_card-container s-body_card-container--dark">
       {renderBlocks(services)}
@@ -103,9 +98,6 @@ export const industrialPageQuery = graphql`
         image
         image2
         image3
-        secbody
-        sectitle
-        secimage
         secvideo
         services {
           title
