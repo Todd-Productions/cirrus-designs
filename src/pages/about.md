@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
-seotitle: Professional 3D Scanning Services
-seodescription: Collective 30 plus years of experience providing high quality 3D scanning services with competitive prices for Washington and Idaho
+seotitle: Professional 3D Scanning Services Washington
+seodescription: Collective 30 plus years of experience providing high quality 3D scanning services with competitive prices for Idaho & Washington
 title: Our Mission
 ---
 

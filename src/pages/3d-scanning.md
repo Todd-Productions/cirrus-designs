@@ -1,7 +1,7 @@
 ---
 templateKey: overview-page
-seotitle: Professional 3D Scanning Services Spokane
-seodescription: Professional 3D scanning with industry leading technology precise measurements, accurate scans, drone scanning, lidar scanning for Spokane Washington
+seotitle: 3D Scanning Services Spokane Washington
+seodescription: Professional 3D scanning with industry leading technology lidar scanning, precise measurements, accurate scans services Spokane Washington
 title: 3D Scanning
 subtitle:
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/1-hed-section-looking-upstream.jpg

@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
-seotitle: Industrial 3D Scanning Washington
-seodescription: 30 plus years of experience with professional 3D scanning industrial power plants, architectural engineering and 3D printing services for Washington and Idaho
+seotitle: Industrial 3D Scanning Services Washington
+seodescription: Experience with professional 3D scanning industrial power plants, architectural engineering and 3D printing services for Washington & Idaho
 slides:
   - image: >-
       https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/slide1.jpg

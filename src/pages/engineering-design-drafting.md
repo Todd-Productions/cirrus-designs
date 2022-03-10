@@ -1,7 +1,7 @@
 ---
 templateKey: overview-page
-seotitle: Reverse Engineer Machinery 3D Services
-seodescription: Save time and money with 3D point cloud services that reverse engineer machinery dimensions and parts servicing Idaho and Washington
+seotitle: Design & Mechanical Engineering Services
+seodescription: Cirrus Design comprehensive design engineering services including mechanical, electrical, drafting and structural services for Washington and Idaho
 title: Design Engineering Services
 subtitle:
 image: ''
