@@ -18,4 +18,4 @@ We encourage you to reach out to our team about any design engineering services 
 
 Cirrus Design provides the following services: Mechanical Design | Electrical/Controls Design |  Hydraulic Design |  3D Scanning of all size objects for reverse engineering |  3D Scanning of Hydro Plants and other large buildings |  3D Matterport Scanning for virtual tours/walkthroughs |  AutoCAD 2D and 3D |  3D Modeling in Inventor and Solidworks | Pre and Post Construction conditions surveys | Drone photography and photogrammetry
 
-Clients served by Cirrus Design include: Public Utility District (PUD) | Bureau of Reclamation | Construction Firms | Engineering Firms | Surveyors | Architectural Firms
+Clients served by Cirrus Design include: Public Utility District (PUD) | Construction Firms | Engineering Firms | Surveyors | Architectural Firms
