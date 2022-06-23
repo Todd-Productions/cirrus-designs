@@ -33,9 +33,9 @@ const SiteMapQuery = ({ data, ...props }) => {
           <div>
             <ul style={{ lineHeight: "150%" }}>
               <li>
-                <Link to="/">Cirrus Design Home</Link> - 30 plus years of
-                experience with professional 3D scanning industrial power
-                plants, architectural engineering and 3D printing services
+                <Link to="/">Cirrus Design Home</Link> - Our experience with
+                professional 3D scanning industrial power plants, architectural
+                engineering and 3D printing services
               </li>
               <br />
               <li>
@@ -78,17 +78,6 @@ const SiteMapQuery = ({ data, ...props }) => {
                     clients reverse engineer machinery wear items and parts with
                     complex geometry, such as turbines, bearings and scroll
                     cases
-                  </li>
-                  <br />
-                  <li>
-                    <Link to="/services/conceptual-design-testing">
-                      Conceptual Design &amp; Testing
-                    </Link>{" "}
-                    - 3D scanning technology allows Cirrus Designs to provide
-                    our clients with the capability to take a real-life object,
-                    create an accurate model out of it, and perform various
-                    types of design testing, such as finite element analysis,
-                    aerodynamic testing and fluid testing
                   </li>
                 </ul>
               </li>

@@ -62,6 +62,8 @@ const OverviewPageTemplate = ({
 const OverviewPage = ({ data, ...props }) => {
   const { frontmatter } = data.markdownRemark;
 
+  console.log({ data });
+
   return (
     <Layout {...props}>
       <SEO

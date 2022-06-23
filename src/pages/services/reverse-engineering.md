@@ -5,13 +5,6 @@ seodescription: Save time and money with 3D point cloud services that provide re
 title: Reverse Engineering
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/reverse-engineer/machine.jpg
 blocks:
-  - description: "<ul><li>Accurate within .05mm or .002in in a fixed position</li><li>Accurate within .1mm or .004in when handheld</li></ul>"
-    image: >-
-      https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/reverse-engineer-image.jpg
-    contain: true
-    subtitle: Small Applications
-  - image: >-
-      https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/helical-gear-scan.png
   - description: "<ul><li>Accurate within 1mm or .04in</li><li>Scanning volume: Up to 8m<sup>3</sup></li></ul>"
     image: >-
       https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/wall-img.jpg

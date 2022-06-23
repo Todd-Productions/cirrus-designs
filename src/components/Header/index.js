@@ -28,10 +28,6 @@ const nav = [
         label: `Reverse Engineering`,
         uri: `/services/reverse-engineering`,
       },
-      {
-        label: `Conceptual Design + Testing`,
-        uri: `/services/conceptual-design-testing`,
-      },
     ],
   },
   {
