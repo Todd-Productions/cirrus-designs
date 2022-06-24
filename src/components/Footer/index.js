@@ -2,7 +2,7 @@ import React from "react";
 import { Link, graphql, StaticQuery } from "gatsby";
 import styled from "styled-components";
 import { lighten } from "polished";
-import { faFacebook, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Social = styled.div`
@@ -82,12 +82,6 @@ const Footer = () => (
               <br />
               <h2 className="s-footer_heading">Follow Us</h2>
               <Social>
-                <a
-                  href="https://www.facebook.com/Cirrus-Design-Industries-Inc-106549944871133"
-                  target="_blank"
-                >
-                  <FontAwesomeIcon icon={faFacebook} />
-                </a>
                 <a
                   href="https://www.linkedin.com/company/cirrus-design-industries-inc/?viewAsMember=true"
                   target="_blank"
