@@ -93,15 +93,6 @@ const SiteMapQuery = ({ data, ...props }) => {
               </li>
               <br />
               <li>
-                <Link to="/ground-penetrating-radar">
-                  Ground Pentrating Radar
-                </Link>{" "}
-                - The type of GPR that we use is for identifying objects in
-                concrete, such as: rebar, pipe, conduit, voids, power cables, as
-                well as identifying slab thickness
-              </li>
-              <br />
-              <li>
                 <Link to="/engineering-design-drafting">
                   Design Engineering
                 </Link>{" "}
@@ -112,9 +103,8 @@ const SiteMapQuery = ({ data, ...props }) => {
               <br />
               <li>
                 <Link to="/contact">Contact Cirrus Design</Link> - Contact
-                Cirrus Design Industrial 3D scanning, 3D printing, ground
-                penetrating radar scanning, mechanical engineering services and
-                more
+                Cirrus Design Industrial 3D scanning, 3D printing, mechanical
+                engineering services and more
               </li>
             </ul>
           </div>

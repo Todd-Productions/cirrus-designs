@@ -31,10 +31,6 @@ const nav = [
     ],
   },
   {
-    label: `Ground Penetrating Radar`,
-    uri: `/ground-penetrating-radar`,
-  },
-  {
     label: `Design Engineering`,
     uri: `/engineering-design-drafting`,
   },
