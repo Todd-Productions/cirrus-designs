@@ -45,24 +45,21 @@ const Footer = () => (
                     <Link to="/">Cirrus Design Home</Link>
                   </li>
                   <li>
-                    <Link to="/3d-scanning">3D Scanning</Link>
+                    <Link to="/3d-scanning/">3D Scanning</Link>
                   </li>
                   <li>
-                    <Link to="/3d-modeling-printing">3D Modeling</Link>
-                  </li>
-                  <li>
-                    <Link to="/engineering-design-drafting">
+                    <Link to="/engineering-design-drafting/">
                       Design Engineering
                     </Link>
                   </li>
                   <li>
-                    <Link to="/about">About</Link>
+                    <Link to="/about/">About</Link>
                   </li>
                   <li>
-                    <Link to="/contact">Contact</Link>
+                    <Link to="/contact/">Contact</Link>
                   </li>
                   <li>
-                    <Link to="/sitemap">Sitemap</Link>
+                    <Link to="/sitemap/">Sitemap</Link>
                   </li>
                 </ul>
               </nav>

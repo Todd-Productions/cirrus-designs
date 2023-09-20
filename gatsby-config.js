@@ -41,7 +41,13 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: "UA-160426874-1",
+        trackingId: "G-S7RN63LCQQ",
+      },
+    },
+    {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: "G-9Z967NLWWY",
       },
     },
     {
@@ -95,6 +101,14 @@ module.exports = {
         develop: true, // Activates purging in npm run develop
         purgeOnly: ["/all.sass"], // applies purging only on the bulma css file
       },
+    },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://cirrusdesign.net/',
+        sitemap: 'https://cirrusdesign.net/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }],
+      }
     },
   ],
 };

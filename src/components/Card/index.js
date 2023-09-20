@@ -31,7 +31,7 @@ const Card = ({
 
     {image && horizontal ? (
       <div className={`card_image ${contain && "card_image--contain"}`}>
-        <img src={image} />
+        <img src={image} alt={title} />
       </div>
     ) : null}
 

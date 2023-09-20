@@ -14,33 +14,33 @@ const nav = [
     children: [
       {
         label: `Industrial Plants`,
-        uri: `/services/industrial-plants`,
+        uri: `/services/industrial-plants/`,
       },
       {
         label: `Arch Eng Const (AEC)`,
-        uri: `/services/aec`,
+        uri: `/services/aec/`,
       },
       {
         label: `Real Estate`,
-        uri: `/services/real-estate`,
+        uri: `/services/real-estate/`,
       },
       {
         label: `Reverse Engineering`,
-        uri: `/services/reverse-engineering`,
+        uri: `/services/reverse-engineering/`,
       },
     ],
   },
   {
     label: `Design Engineering`,
-    uri: `/engineering-design-drafting`,
+    uri: `/engineering-design-drafting/`,
   },
   {
     label: `About`,
-    uri: `/about`,
+    uri: `/about/`,
   },
   {
     label: `Contact`,
-    uri: `/contact`,
+    uri: `/contact/`,
   },
 ];
 
