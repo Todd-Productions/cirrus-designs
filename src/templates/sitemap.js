@@ -93,8 +93,8 @@ const SiteMapQuery = ({ data, ...props }) => {
               </li>
               <br />
               <li>
-                <Link to="/engineering-design-drafting">
-                  Design Engineering
+                <Link to="/confined-space-uav-inspections">
+                  UAV Inspections
                 </Link>{" "}
                 - Cirrus Design helps turn our clients’ designs into reality. We
                 provide comprehensive design engineering services in the

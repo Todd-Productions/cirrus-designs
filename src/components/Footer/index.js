@@ -48,8 +48,8 @@ const Footer = () => (
                     <Link to="/3d-scanning/">3D Scanning</Link>
                   </li>
                   <li>
-                    <Link to="/engineering-design-drafting/">
-                      Design Engineering
+                    <Link to="/confined-space-uav-inspections/">
+                      UAV Inspections
                     </Link>
                   </li>
                   <li>
