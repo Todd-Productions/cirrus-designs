@@ -7,7 +7,7 @@ subtitle:
 image: ''
 image2: ''
 image3: ''
-secvideo: ''
+secvideo: 'https://www.youtube.com/embed/3WDD4ojyRTU?si=58SRGZoRsGxtviW7'
 ---
 
 Do you have an asset that requires a difficult entry or a dangerous confined space procedure yet needs to be inspected on a regular basis? We have the equipment and expertise to help you ensure compliance and safety.
