@@ -107,7 +107,7 @@ module.exports = {
       options: {
         host: 'https://cirrusdesign.net/',
         sitemap: 'https://cirrusdesign.net/sitemap.xml',
-        policy: [{ userAgent: '*', allow: '/' }],
+        policy: [{ userAgent: '*', allow: '/', disallow: ['/uav-risk-assessment-form.pdf'] }],
       }
     },
   ],
