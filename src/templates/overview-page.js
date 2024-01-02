@@ -10,17 +10,17 @@ const isNull = (variable) => variable === "" || variable === null;
 const renderBlocks = (services) => {
   return services !== null
     ? services.map((service, ix) => (
-        <Card
-          key={ix}
-          title={service.title}
-          small={true}
-          image={service.image}
-          buttonText={service.buttontext}
-          buttonLink={service.buttonlink}
-        >
-          {service.description}
-        </Card>
-      ))
+      <Card
+        key={ix}
+        title={service.title}
+        small={true}
+        image={service.image}
+        buttonText={service.buttontext}
+        buttonLink={service.buttonlink}
+      >
+        {service.description}
+      </Card>
+    ))
     : null;
 };
 
@@ -44,10 +44,21 @@ const OverviewPageTemplate = ({
       image={image}
       image2={image2}
       image3={image3}
+      bottomRender={() => (
+        secvideo ?
+          <div className="embed-response">
+            <iframe
+              src={secvideo}
+              title="What Does A Facilitator Do?"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            />
+          </div> : null
+      )}
     >
       {body}
     </Section>
-    {secvideo && <Section>{secvideo}</Section>}
+    {/* {secvideo && <Section>{secvideo}</Section>} */}
     {(!isNull(secbody) || !isNull(sectitle)) && (
       <Section title={sectitle} image={secimage} theme="dark" leftImage={true}>
         {secbody}

@@ -31,8 +31,8 @@ const nav = [
     ],
   },
   {
-    label: `Design Engineering`,
-    uri: `/engineering-design-drafting/`,
+    label: `UAV Inspections`,
+    uri: `/confined-space-uav-inspections/`,
   },
   {
     label: `About`,

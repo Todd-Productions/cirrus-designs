@@ -9,10 +9,10 @@ image2: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src
 sectitle: 3D Virtual Tour
 secimage: >-
   https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/north-holiday.jpg
-secbody: >- 
+secbody: >-
   <a href="https://my.matterport.com/show/?m=bG3auxEZFVh" target="_blank">Click Here To See An Example Of The Services Cirrus Designs Can Provide</a>
 ---
 
-Three-dimensional scanning technology has revolutionized the real estate industry, providing true immersive 3D virtual walkthroughs. Today’s high-tech 3D scanners are capable of producing digital scans of virtually any building, from homes to warehouses and everything in between.
+Three-dimensional scanning technology has revolutionized the real estate industry, providing truly immersive 3D walkthroughs and virtual tours. Today’s high-tech 3D scanners are capable of producing digital scans of essentially any building, from residential homes and condominiums to warehouses and commercial buildings – plus everything in between.
 
-Sellers can provide in-depth digital imagery to prospective clients, and buyers can use those scans to digitally view properties that they have yet to even set foot inside. Cirrus Design has the knowledge and tools to create full 3D interactive walkthroughs of floor plans. We also provide aerial drone footage, dollhouse views that show an entire home opened up and viewed from above, plus beautiful 4K photography and videos.
+Real estate sellers can provide in-depth digital imagery to prospective clients, and buyers can use those scans to digitally view properties that they have yet to set foot inside. Cirrus Design has the knowledge and tools to create complete, 3-dimensional interactive walkthroughs of floor plans. We also provide aerial drone footage, dollhouse views that show an entire home opened up and viewed from above, plus beautiful 4K photography and videos.

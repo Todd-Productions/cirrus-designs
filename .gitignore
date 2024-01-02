@@ -3,7 +3,8 @@
 node_modules
 .cache/
 # Build directory
-public/
+public/*
+!public/uav-risk-assessment-form.pdf
 static/admin/*.bundle.*
 .DS_Store
 yarn-error.log
