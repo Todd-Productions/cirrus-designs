@@ -12,7 +12,7 @@ slides:
     buttontext: Discover 3D Scanning
     buttonlink: /3d-scanning
   - image: >-
-      https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/slide2.jpg
+      ./img/slide2.jpg
     title: Confined Space UAV Inspections
     subtitle: Digitally capture the inaccessible, safely and expediently
     description: >-
