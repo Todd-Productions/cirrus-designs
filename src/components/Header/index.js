@@ -35,6 +35,10 @@ const nav = [
     uri: `/confined-space-uav-inspections/`,
   },
   {
+    label: `3D Modeling and Design`,
+    uri: `/engineering-design-drafting/`,
+  },
+  {
     label: `About`,
     uri: `/about/`,
   },
@@ -144,9 +148,8 @@ class Header extends React.Component {
         render={(data) => {
           return (
             <header
-              className={`s-header ${
-                this.state.stuckTop && "s-header--sticky"
-              }`}
+              className={`s-header ${this.state.stuckTop && "s-header--sticky"
+                }`}
               ref={this.headerRef}
             >
               <section className="s-header_top">
