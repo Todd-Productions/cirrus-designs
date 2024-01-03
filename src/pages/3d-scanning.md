@@ -29,13 +29,13 @@ services:
       Cirrus Design can help your company reverse engineer a product, and successfully convert a point cloud into a 3D model.
     buttontext: LEARN MORE
     buttonlink: ../../services/reverse-engineering
-    image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/reverse-engineer/machine.jpg
+    image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/reverse-engineer/hand-scanning.jpg
   - title: Photogrammetry
     description: >-
       Our Licensed and professional pilots use drones with Survey Grade Real-Time Kinematic (RTK) technology. We take high resolution photos and stitch them together to create accurate and beautiful 3D Models, meshes and point clouds of your asset. Using Ground Control Points, we can also accurately map your asset to known Geolocations.
     buttontext: LEARN MORE
     buttonlink: ../../services/photogrammetry
-    image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/reverse-engineer/machine.jpg
+    image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/photogrammetry/photogrammetry.jpg
 ---
 
 3D Scanning is the process for digitally capturing the precise shape, size and texture of real-world objects or physical environments. For example, when you need to digitize assets for enhanced engineering and design workflows or achieve a digital twin of your facility for compliance and safety, 3D Scanning will precisely create what is known as a point cloud, or a set of data points, by measuring many points on the external surface of an existing object. This process is also known as reality capture.
