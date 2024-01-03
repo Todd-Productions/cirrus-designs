@@ -28,6 +28,10 @@ const nav = [
         label: `Reverse Engineering`,
         uri: `/services/reverse-engineering/`,
       },
+      {
+        label: `Photogrammetry`,
+        uri: `/services/photogrammetry/`,
+      },
     ],
   },
   {
