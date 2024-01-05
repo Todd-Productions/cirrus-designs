@@ -9,12 +9,12 @@ blocks:
     image: >-
       https://raw.githubusercontent.com/Todd-Productions/cirrus-designs/master/src/img/content/reverse-engineer/part-scanning.jpg
     contain: true
-    subtitle: Large Applications
-  - description: "<ul><li>Accurate within 0.10mm or .004in</li><li>Scanning volume: Up to 0.5m<sup>3</sup></li></ul>"
+    subtitle: Small Applications
+  - description: '<ul><li>Accurate within 1mm or .040"</li><li>Scanning volume: Up to 3m<sup>3</sup></li></ul>'
     image: >-
       https://raw.githubusercontent.com/Todd-Productions/cirrus-designs/master/src/img/content/reverse-engineer/part-scanning-2.jpg
     contain: true
-    subtitle: Small Applications
+    subtitle: Large Applications
 ---
 
 Cirrus Design can help your company reverse engineer a product, converting a point cloud into a 3D model.
