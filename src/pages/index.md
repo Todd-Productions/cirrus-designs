@@ -4,7 +4,7 @@ seotitle: Industrial 3D Scanning Services Washington
 seodescription: Experience with professional 3D scanning industrial power plants, architectural engineering and 3D printing services for Washington & Idaho
 slides:
   - image: >-
-      https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/slide1.jpg
+      https://raw.githubusercontent.com/Todd-Productions/cirrus-designs/master/src/img/content/slide1.jpg
     title: 3D Scanning
     subtitle: From industrial plants and large equipment to small parts and confined spaces – and every asset in between.
     description: >-
@@ -20,7 +20,7 @@ slides:
     buttontext: Discover UAV Inspections
     buttonlink: /confined-space-uav-inspections
   - image: >-
-      https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/slide3.jpg
+      https://raw.githubusercontent.com/Todd-Productions/cirrus-designs/master/src/img/content/slide3.jpg
     title: High Quality 3D Modeling and Design
     subtitle: Accurately measure, model and verify virtually anything with precise 3D scan data
     description: >-
@@ -52,7 +52,7 @@ The Cirrus Design team deploys a combination of experience and technical know-ho
 In addition to our work in three-dimensional scanning and modeling technologies, Cirrus Designs focuses on architectural engineering construction, real estate, reverse engineering, conceptual design testing and 3D printing. We also offer our clients mechanical, electrical and structural engineering services.
 "
   image: >-
-    https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/about-cirrus-design.jpg
+    https://raw.githubusercontent.com/Todd-Productions/cirrus-designs/develop/static/img/about-cirrus-design.jpg
   subtitle: The most advanced FARO 3D scanning technology and expertise at your fingertips
   title: About Cirrus Design
 ---
