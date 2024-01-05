@@ -5,7 +5,7 @@ seodescription: Save time and money with 3D point cloud services that provide re
 title: Reverse Engineering
 image: https://raw.githubusercontent.com/Todd-Productions/cirrus-designs/master/src/img/content/reverse-engineer/machine.jpg
 blocks:
-  - description: "<ul><li>Accurate within 1mm or .04in</li><li>Scanning volume: Up to 8m<sup>3</sup></li></ul>"
+  - description: "<ul><li>Accuracy: +-0.10mm or .004in</li><li>Handheld and Turntable scan options</li><li>Used for small part reverse engineering</li><li>Maximum size is 3 ft cubed</li><li>Faster than hand measurements by 2x or more</li><li>Measure complex surfaces and angles on parts</li></ul>"
     image: >-
       https://raw.githubusercontent.com/Todd-Productions/cirrus-designs/master/src/img/content/reverse-engineer/part-scanning.jpg
     contain: true
