@@ -28,11 +28,19 @@ const nav = [
         label: `Reverse Engineering`,
         uri: `/services/reverse-engineering/`,
       },
+      {
+        label: `Photogrammetry`,
+        uri: `/services/photogrammetry/`,
+      },
     ],
   },
   {
     label: `UAV Inspections`,
     uri: `/confined-space-uav-inspections/`,
+  },
+  {
+    label: `3D Modeling and Design`,
+    uri: `/engineering-design-drafting/`,
   },
   {
     label: `About`,
@@ -144,9 +152,8 @@ class Header extends React.Component {
         render={(data) => {
           return (
             <header
-              className={`s-header ${
-                this.state.stuckTop && "s-header--sticky"
-              }`}
+              className={`s-header ${this.state.stuckTop && "s-header--sticky"
+                }`}
               ref={this.headerRef}
             >
               <section className="s-header_top">

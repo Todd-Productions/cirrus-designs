@@ -22,3 +22,4 @@ UAV equipment & expertise:
 - Long flight ranges of up to 1100 ft or more are possible, depending on site conditions
 - Part 107 FAA licensed flyers with unparalleled field experience ensure inspections are done right the first time.
 - Confined space UAV inspections provide for less downtime for inspecting penstocks, runners, draft tubes, underground piping, tanks, galleries, mines and various other critical assets and infrastructure.
+- Faster Completion equals less down time and no scaffolding setup time
