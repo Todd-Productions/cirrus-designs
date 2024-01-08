@@ -52,7 +52,7 @@ The Cirrus Design team deploys a combination of experience and technical know-ho
 In addition to our work in three-dimensional scanning and modeling technologies, Cirrus Designs focuses on architectural engineering construction, real estate, reverse engineering, conceptual design testing and 3D printing. We also offer our clients mechanical, electrical and structural engineering services.
 "
   image: >-
-    https://raw.githubusercontent.com/Todd-Productions/cirrus-designs/develop/static/img/about-cirrus-design.jpg
+    https://raw.githubusercontent.com/Todd-Productions/cirrus-designs/master/static/img/about-cirrus-design.jpg
   subtitle: The most advanced FARO 3D scanning technology and expertise at your fingertips
   title: About Cirrus Design
 ---
