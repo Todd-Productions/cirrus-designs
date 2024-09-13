@@ -54,17 +54,22 @@ class Banner extends React.Component {
     });
   };
 
-  renderItems = slides => {
+  renderItems = (slides) => {
     return slides.map((slide, ix) => {
       return (
         <div
-          className={`banner_slide ${this.state.activeSlide === ix &&
-            "active"}`}
+          className={`banner_slide ${
+            this.state.activeSlide === ix && "active"
+          }`}
           key={ix}
           style={{ backgroundImage: `url("${slide.image}")` }}
         >
           <div className="banner_slide_overlay">
-            <h1 className="banner_slide_title">{slide.title}</h1>
+            {this.state.activeSlide === ix ? (
+              <h1 className="banner_slide_title">{slide.title}</h1>
+            ) : (
+              <span className="banner_slide_title font-one">{slide.title}</span>
+            )}
             <h2 className="banner_slide_subtitle">{slide.subtitle}</h2>
             <p className="banner_slide_text">{slide.description}</p>
             {/* <Link
