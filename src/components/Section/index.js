@@ -39,16 +39,20 @@ const Section = ({
                   target="_blank"
                   href={imageTitleLink}
                 >
-                  <h1 className="section_title text-center">{imagetitle}</h1>
+                  <h2 className="section_title text-center">{imagetitle}</h2>
                 </a>
               ) : (
-                <h1 className="section_title text-center">{imagetitle}</h1>
+                <h2 className="section_title text-center">{imagetitle}</h2>
               )}
             </Fragment>
           )}
           <img src={image} className="section_image" alt={title} />
-          {image2 && <img src={image2} className="section_image" alt={`${title}-2`} />}
-          {image3 && <img src={image3} className="section_image" alt={`${title}-3`} />}
+          {image2 && (
+            <img src={image2} className="section_image" alt={`${title}-2`} />
+          )}
+          {image3 && (
+            <img src={image3} className="section_image" alt={`${title}-3`} />
+          )}
         </div>
       ) : null}
 
@@ -66,10 +70,10 @@ const Section = ({
         {aboveSectionTitle && aboveSectionTitle()}
         {titleLink ? (
           <a target="_blank" className="section_titleLink" href={titleLink}>
-            <h1 className="section_title">{title}</h1>
+            <h2 className="section_title">{title}</h2>
           </a>
         ) : (
-          <h1 className="section_title">{title}</h1>
+          <h2 className="section_title">{title}</h2>
         )}
         <h2 className="section_subtitle">{subtitle}</h2>
 

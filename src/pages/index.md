@@ -10,7 +10,7 @@ slides:
     description: >-
       We are digital capture experts
     buttontext: Discover 3D Scanning
-    buttonlink: /3d-scanning
+    buttonlink: /3d-scanning/
   - image: >-
       ./img/slide2.jpg
     title: Confined Space UAV Inspections
@@ -18,7 +18,7 @@ slides:
     description: >-
       We are digital capture experts
     buttontext: Discover UAV Inspections
-    buttonlink: /confined-space-uav-inspections
+    buttonlink: /confined-space-uav-inspections/
   - image: >-
       https://raw.githubusercontent.com/Todd-Productions/cirrus-designs/master/src/img/content/slide3.jpg
     title: High Quality 3D Modeling and Design
@@ -44,7 +44,7 @@ In addition to our work in three-dimensional scanning and modeling technologies,
 
 aboutsection:
   buttontext: Learn More
-  buttonlink: /about
+  buttonlink: /about/
   description: "We ensure compliance and safety standards for a wide range of industries.
 
 The Cirrus Design team deploys a combination of experience and technical know-how making us uniquely equipped to specialize in 3D scanning and modeling of hydroelectric power plants. Generating accurate 3D maps of hydro plants presents a unique challenge. In some cases, these facilities and their buildings are more than 100 years old and existing documentation is often incorrect or lacking entirely. We will record every dimension of a hydro plant – to exacting measurements within 1/8th of an inch –  and generate a truly accurate representation of what exists at the asset.

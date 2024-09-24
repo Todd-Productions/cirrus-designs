@@ -39,7 +39,7 @@ const SiteMapQuery = ({ data, ...props }) => {
               </li>
               <br />
               <li>
-                <Link to="/3d-scanning">3D Scanning</Link> - 3D Scanning
+                <Link to="/3d-scanning/">3D Scanning</Link> - 3D Scanning
                 produces what is known as a point cloud, or a set of data points
                 created by measuring many points on the external surface of an
                 existing object
@@ -47,7 +47,7 @@ const SiteMapQuery = ({ data, ...props }) => {
                 <br />
                 <ul style={{ paddingLeft: "3rem", lineHeight: "120%" }}>
                   <li>
-                    <Link to="/services/industrial-plants">
+                    <Link to="/services/industrial-plants/">
                       Industrial Plants
                     </Link>{" "}
                     - 3D scanning technology offers a powerful and effective
@@ -56,7 +56,7 @@ const SiteMapQuery = ({ data, ...props }) => {
                   </li>
                   <br />
                   <li>
-                    <Link to="/services/aec">
+                    <Link to="/services/aec/">
                       Architectural Engineering Construction (AEC)
                     </Link>{" "}
                     - multi-disciplinary approach to the planning, design,
@@ -64,14 +64,14 @@ const SiteMapQuery = ({ data, ...props }) => {
                   </li>
                   <br />
                   <li>
-                    <Link to="/services/real-estate">Real Estate</Link> -
+                    <Link to="/services/real-estate/">Real Estate</Link> -
                     Three-dimensional scanning technology has revolutionized the
                     real estate industry, providing true immersive 3D virtual
                     walkthroughs
                   </li>
                   <br />
                   <li>
-                    <Link to="/services/reverse-engineering">
+                    <Link to="/services/reverse-engineering/">
                       Reverse Engineering
                     </Link>{" "}
                     - The use of our technology and capabilities has helped our
@@ -86,14 +86,14 @@ const SiteMapQuery = ({ data, ...props }) => {
           <div>
             <ul style={{ lineHeight: "150%" }}>
               <li>
-                <Link to="/about">About Cirrus Design</Link> - Our design
+                <Link to="/about/">About Cirrus Design</Link> - Our design
                 process is rooted in three-dimensional design and drafting using
                 programs like AutoCAD, Solidworks, or Inventor, depending on the
                 needs of our clients
               </li>
               <br />
               <li>
-                <Link to="/confined-space-uav-inspections">
+                <Link to="/confined-space-uav-inspections/">
                   UAV Inspections
                 </Link>{" "}
                 - Cirrus Design helps turn our clients’ designs into reality. We
@@ -102,7 +102,7 @@ const SiteMapQuery = ({ data, ...props }) => {
               </li>
               <br />
               <li>
-                <Link to="/contact">Contact Cirrus Design</Link> - Contact
+                <Link to="/contact/">Contact Cirrus Design</Link> - Contact
                 Cirrus Design Industrial 3D scanning, 3D printing, mechanical
                 engineering services and more
               </li>

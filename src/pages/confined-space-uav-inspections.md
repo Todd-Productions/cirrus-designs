@@ -1,7 +1,7 @@
 ---
 templateKey: overview-page
 seotitle: Confined Space UAV Inspections
-seodescription: Certified and experienced drone pilots leverage the most advanced Unmanned Aerial Vehicle (UAV) equipment designed specifically to digitize spaces that have previously been in-accessible
+seodescription: Discover how certified drone pilots utilize advanced UAV technology to digitize previously inaccessible spaces, providing innovative solutions for your needs.
 title: Confined Space UAV Inspections
 subtitle:
 image: ''

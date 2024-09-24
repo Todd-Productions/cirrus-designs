@@ -10,31 +10,31 @@ services:
     description: >-
       Our 3D scanning technology offers a powerful and effective means to accurately map existing facilities and industrial projects, helping our clients avoid problems and find solutions ahead of future construction phases.
     buttontext: LEARN MORE
-    buttonlink: ../../services/industrial-plants
+    buttonlink: ../../services/industrial-plants/
     image: https://raw.githubusercontent.com/Todd-Productions/cirrus-designs/master/src/img/content/industial%20plants/industial-4.jpg
   - title: Arch Eng Const (AEC)
     description: >-
       We help our clients reduce file space consumption and offer optimized design services, with fast scan times that create detailed 3D point cloud information.
     buttontext: LEARN MORE
-    buttonlink: ../../services/aec
+    buttonlink: ../../services/aec/
     image: https://raw.githubusercontent.com/Todd-Productions/cirrus-designs/master/src/img/content/aec/aec-2.jpg
   - title: Real Estate
     description: >-
       Three-dimensional scanning technology has revolutionized the real estate industry. Today’s high-tech 3D scanners are capable of producing digital scans of virtually any building.
     buttontext: LEARN MORE
-    buttonlink: ../../services/real-estate
+    buttonlink: ../../services/real-estate/
     image: https://raw.githubusercontent.com/Todd-Productions/cirrus-designs/master/src/img/content/dollhouse-view.jpg
   - title: Reverse Engineering
     description: >-
       Cirrus Design can help your company reverse engineer a product, and successfully convert a point cloud into a 3D model.
     buttontext: LEARN MORE
-    buttonlink: ../../services/reverse-engineering
+    buttonlink: ../../services/reverse-engineering/
     image: https://raw.githubusercontent.com/Todd-Productions/cirrus-designs/master/src/img/content/reverse-engineer/hand-scanning.jpg
   - title: Photogrammetry
     description: >-
       Our Licensed and professional pilots use drones with Survey Grade Real-Time Kinematic (RTK) technology. We take high resolution photos and stitch them together to create accurate and beautiful 3D Models, meshes and point clouds of your asset. Using Ground Control Points, we can also accurately map your asset to known Geolocations.
     buttontext: LEARN MORE
-    buttonlink: ../../services/photogrammetry
+    buttonlink: ../../services/photogrammetry/
     image: https://raw.githubusercontent.com/Todd-Productions/cirrus-designs/master/src/img/content/photogrammetry/photogrammetry.jpg
 ---
 

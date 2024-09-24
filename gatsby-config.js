@@ -103,12 +103,21 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-robots-txt',
+      resolve: "gatsby-plugin-favicon",
       options: {
-        host: 'https://cirrusdesign.net/',
-        sitemap: 'https://cirrusdesign.net/sitemap.xml',
-        policy: [{ userAgent: '*', allow: '/', disallow: ['/uav-risk-assessment-form.pdf'] }],
-      }
+        logo: "./src/img/favicon.ico",
+        appName: "Cirrus Design",
+        icons: {
+          android: true,
+          appleIcon: true,
+          appleStartup: true,
+          coast: false,
+          favicons: true,
+          firefox: true,
+          yandex: false,
+          windows: false,
+        },
+      },
     },
   ],
 };

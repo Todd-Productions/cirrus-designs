@@ -10,7 +10,7 @@ import logo from "../../img/logo.png";
 const nav = [
   {
     label: `3D Scanning`,
-    uri: `/3d-scanning`,
+    uri: `/3d-scanning/`,
     children: [
       {
         label: `Industrial Plants`,
