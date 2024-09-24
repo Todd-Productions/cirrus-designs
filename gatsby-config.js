@@ -102,22 +102,5 @@ module.exports = {
         purgeOnly: ["/all.sass"], // applies purging only on the bulma css file
       },
     },
-    {
-      resolve: "gatsby-plugin-favicon",
-      options: {
-        logo: "./src/img/favicon.ico",
-        appName: "Cirrus Design",
-        icons: {
-          android: true,
-          appleIcon: true,
-          appleStartup: true,
-          coast: false,
-          favicons: true,
-          firefox: true,
-          yandex: false,
-          windows: false,
-        },
-      },
-    },
   ],
 };
